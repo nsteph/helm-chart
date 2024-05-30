@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  drift2:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-30T23:32:20.601061258Z"
+    description: A Helm chart for Kubernetes
+    digest: a77dd7dde8288e43d353c614b0948d67dd465e99cdca4244addd8d5d3d6bd8de
+    name: drift2
+    type: application
+    urls:
+    - https://github.com/nsteph/helm-chart/releases/download/drift2-0.1.0/drift2-0.1.0.tgz
+    version: 0.1.0
+  drifts:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-05-30T23:32:20.796380899Z"
+    description: A Helm chart for testing configuration drifts
+    digest: 54fed48407b84016c5527b6df5109eafdc7b7f4f0c5b567699527f9df08f05fd
+    name: drifts
+    type: application
+    urls:
+    - https://github.com/nsteph/helm-chart/releases/download/drifts-0.1.2/drifts-0.1.2.tgz
+    version: 0.1.2
+generated: "2024-05-30T23:32:20.796390256Z"
