@@ -14,3 +14,8 @@ spec:
       containers:
         - name: fluentd-elasticsearch
           image: quay.io/fluentd_elasticsearch/fluentd:latest
+  updateStrategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1,
+      maxUnavailable: 0
