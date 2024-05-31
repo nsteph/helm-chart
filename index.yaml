@@ -14,6 +14,16 @@ entries:
   drifts:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2024-05-31T20:44:34.426211353Z"
+    description: A Helm chart for testing configuration drifts
+    digest: 282bb51ecb2041aa92f29c135b14fea201b01b1c2952898987a0986c9f90a93a
+    name: drifts
+    type: application
+    urls:
+    - https://github.com/nsteph/helm-chart/releases/download/drifts-0.1.7/drifts-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-05-31T19:19:55.253947316Z"
     description: A Helm chart for testing configuration drifts
     digest: 6325fdbe13c8706097655bf9fc4b55e4a6c1d079698cf8c625edd6fe43437289
@@ -62,4 +72,4 @@ entries:
     urls:
     - https://github.com/nsteph/helm-chart/releases/download/drifts-0.1.2/drifts-0.1.2.tgz
     version: 0.1.2
-generated: "2024-05-31T19:19:55.253994635Z"
+generated: "2024-05-31T20:44:34.426234577Z"
